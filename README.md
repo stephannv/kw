@@ -1,7 +1,7 @@
 The Transtion Manager was developed for Corona SDK's transitions could be paused and resumed
 
 Usage example:
-//
+```lua
 local isPaused = false
 
 local transitionManager = TransitionManager.new()
@@ -23,3 +23,4 @@ Runtime:addEventListener('tap', pause)
 
 transitionManager:to(circle, {time = 3000, x = 400, y = 300})
 transitionManager:from(rect, {time = 5000, alpha = 0, x = 400, y = 300})
+```
