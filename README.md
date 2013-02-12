@@ -2,6 +2,7 @@ The Transtion Manager was developed for Corona SDK's transitions could be paused
 
 Usage example:
 ```lua
+local TransitionManager = require 'TranstionManager'
 local isPaused = false
 
 local transitionManager = TransitionManager.new()
